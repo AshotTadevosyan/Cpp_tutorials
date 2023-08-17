@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		032E72E22A8D2A390021370B /* power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032E72E12A8D2A390021370B /* power.cpp */; };
-		03679A412A8A35D400E82BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03679A402A8A35D400E82BA2 /* main.cpp */; };
+		032E72EA2A8E362F0021370B /* Compare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032E72E82A8E362F0021370B /* Compare.cpp */; };
+		032E72EF2A8E37730021370B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032E72EE2A8E37730021370B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +26,10 @@
 
 /* Begin PBXFileReference section */
 		032E72E12A8D2A390021370B /* power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = power.cpp; sourceTree = "<group>"; };
+		032E72E82A8E362F0021370B /* Compare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Compare.cpp; path = Cpp_tutorials/Compare.cpp; sourceTree = "<group>"; };
+		032E72ED2A8E37070021370B /* Compare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Compare.h; path = Cpp_tutorials/Compare.h; sourceTree = "<group>"; };
+		032E72EE2A8E37730021370B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Cpp_tutorials/main.cpp; sourceTree = "<group>"; };
 		03679A3D2A8A35D400E82BA2 /* Cpp_tutorials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_tutorials; sourceTree = BUILT_PRODUCTS_DIR; };
-		03679A402A8A35D400E82BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,9 @@
 		03679A342A8A35D400E82BA2 = {
 			isa = PBXGroup;
 			children = (
+				032E72EE2A8E37730021370B /* main.cpp */,
+				032E72ED2A8E37070021370B /* Compare.h */,
+				032E72E82A8E362F0021370B /* Compare.cpp */,
 				03679A3F2A8A35D400E82BA2 /* Cpp_tutorials */,
 				03679A3E2A8A35D400E82BA2 /* Products */,
 			);
@@ -59,7 +65,6 @@
 		03679A3F2A8A35D400E82BA2 /* Cpp_tutorials */ = {
 			isa = PBXGroup;
 			children = (
-				03679A402A8A35D400E82BA2 /* main.cpp */,
 				032E72E12A8D2A390021370B /* power.cpp */,
 			);
 			path = Cpp_tutorials;
@@ -122,8 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03679A412A8A35D400E82BA2 /* main.cpp in Sources */,
+				032E72EA2A8E362F0021370B /* Compare.cpp in Sources */,
 				032E72E22A8D2A390021370B /* power.cpp in Sources */,
+				032E72EF2A8E37730021370B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

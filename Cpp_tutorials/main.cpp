@@ -1,13 +1,17 @@
-// Calling external functions
+// Using functions in a namespace
 #include <iostream>
-#include <iomanip>
+#include <vector>
 
-double power(double x, int n);      // Declaration of an external power() function
+#include "compare.h"
+
+using compare::max;                    // Using declaration for max
+
 
 int main()
 {
-  for (int i {-3}; i <= 3; ++i)     // Calculate powers of 8 from -3 to +3
-    std::cout << std::setw(10) << power(8.0, i);
-
-  std::cout << std::endl;
+  using compare::min;                  // Using declaration for min
+  
+  std::vector<double> data{1.5, 4.6, 3.1, 1.1, 3.8, 2.1};
+  std::cout << "Minimum double is " << min(data) << std::endl;
+  std::cout << "Maximum double is " << max(data) << std::endl;
 }
