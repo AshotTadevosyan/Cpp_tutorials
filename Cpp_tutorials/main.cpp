@@ -1,14 +1,13 @@
-//
-//  main.cpp
-//  Cpp_tutorials
-//
-//  Created by Ashot Tadevosyan on 14.08.23.
-//
-
+// Calling external functions
 #include <iostream>
+#include <iomanip>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+double power(double x, int n);      // Declaration of an external power() function
+
+int main()
+{
+  for (int i {-3}; i <= 3; ++i)     // Calculate powers of 8 from -3 to +3
+    std::cout << std::setw(10) << power(8.0, i);
+
+  std::cout << std::endl;
 }
