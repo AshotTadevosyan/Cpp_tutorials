@@ -21,5 +21,6 @@ public:
     explicit Box(double side);
     
     double volume();
+    bool isBigger(Box aBox);
 };
 #endif /* ex1_hpp */

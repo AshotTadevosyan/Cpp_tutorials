@@ -20,4 +20,9 @@ double Box::volume()
     return length * width * height;
 }
 
+bool Box::isBigger(Box aBox)
+{
+    return volume() > aBox.volume(); 
+}
+
 
