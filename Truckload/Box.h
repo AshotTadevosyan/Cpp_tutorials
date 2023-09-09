@@ -36,5 +36,7 @@ public:
                              << std::setw(2) << width << ","
                              << std::setw(2) << height << ")";
     }
+    
+    bool operator>(const Box& box) const {return this->Volume() > box.Volume();}
 };
 #endif /* Box_h */
