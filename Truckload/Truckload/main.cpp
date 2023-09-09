@@ -30,7 +30,7 @@ int main(int argc, const char * argv[])
   SharedBox nextBox{load1.getNextBox()};
   while (nextBox)
   {
-    if (nextBox->Compare(*largestBox) > 0)
+    if (*nextBox > *largestBox)
       largestBox = nextBox;
     nextBox = load1.getNextBox();
   }
