@@ -54,8 +54,13 @@ public:
     
     Employee() = default;
     
-    void who() const { std::cout << getName() << " is a " << (isFemale()? "female":                      "male") << " employee aged " << getAge() << "." << std::endl;
-                     }
+    void who() const
+    {
+        std::cout << getName() << " is a " <<
+        (isFemale()? "female":"male") <<
+        " employee aged " << getAge() <<
+        "." << std::endl;
+    }
     
 protected:
     int getID() {return ID;}
@@ -69,8 +74,12 @@ public:
     
     Executive() = default;
     
-    void who() const {std::cout << getName() << " is a " << (isFemale()? "female" :                                        "male") << " executive." << std::endl;
-                     }
+    void who() const
+    {
+        std::cout << getName() << " is a " <<
+        (isFemale()? "female" : "male")    <<
+        " executive." << std::endl;
+    }
 };
 
 #endif /* Ex13_4_h */
