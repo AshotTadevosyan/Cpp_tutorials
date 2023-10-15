@@ -17,10 +17,17 @@ private:
     
 public:
     Integer(int m);
-    
+    Integer() = default;
+    Integer(const Integer& object); // copy constructor
+    int compare(const Integer& object) const;
     int getvalue() const {return n;}
     void setvalue(int m) {n = m;}
     void show() const;
+    
+    int add(Integer& object);
+    int subtract(Integer& object);
+    int multiply(Integer& object);
+    
 };
 
 #endif /* integer_hpp */

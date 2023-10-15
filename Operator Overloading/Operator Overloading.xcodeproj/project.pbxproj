@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03710DA32AA77CD000B9674A /* Ex1_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03710DA22AA77CD000B9674A /* Ex1_13.cpp */; };
+		035B395F2AADBBBC0095531F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 035B395E2AADBBBC0095531F /* main.cpp */; };
+		035B39672AADBBCE0095531F /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 035B39652AADBBCE0095531F /* Box.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		03679A3B2A8A35D400E82BA2 /* CopyFiles */ = {
+		035B39592AADBBBC0095531F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03679A3D2A8A35D400E82BA2 /* Cpp_tutorials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_tutorials; sourceTree = BUILT_PRODUCTS_DIR; };
-		03710D9F2AA75D6800B9674A /* Inheritance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Inheritance.hpp; path = Cpp_tutorials/Inheritance.hpp; sourceTree = "<group>"; };
-		03710DA12AA77C9D00B9674A /* Carton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Carton.h; sourceTree = "<group>"; };
-		03710DA22AA77CD000B9674A /* Ex1_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1_13.cpp; sourceTree = "<group>"; };
+		035B395B2AADBBBC0095531F /* Operator Overloading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Operator Overloading"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035B395E2AADBBBC0095531F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		035B39652AADBBCE0095531F /* Box.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Box.cpp; sourceTree = "<group>"; };
+		035B39662AADBBCE0095531F /* Box.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Box.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03679A3A2A8A35D400E82BA2 /* Frameworks */ = {
+		035B39582AADBBBC0095531F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,59 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03679A342A8A35D400E82BA2 = {
+		035B39522AADBBBC0095531F = {
 			isa = PBXGroup;
 			children = (
-				03710DA22AA77CD000B9674A /* Ex1_13.cpp */,
-				03710DA12AA77C9D00B9674A /* Carton.h */,
-				03710D9F2AA75D6800B9674A /* Inheritance.hpp */,
-				03679A3E2A8A35D400E82BA2 /* Products */,
+				035B39652AADBBCE0095531F /* Box.cpp */,
+				035B39662AADBBCE0095531F /* Box.hpp */,
+				035B395D2AADBBBC0095531F /* Operator Overloading */,
+				035B395C2AADBBBC0095531F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03679A3E2A8A35D400E82BA2 /* Products */ = {
+		035B395C2AADBBBC0095531F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03679A3D2A8A35D400E82BA2 /* Cpp_tutorials */,
+				035B395B2AADBBBC0095531F /* Operator Overloading */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		035B395D2AADBBBC0095531F /* Operator Overloading */ = {
+			isa = PBXGroup;
+			children = (
+				035B395E2AADBBBC0095531F /* main.cpp */,
+			);
+			path = "Operator Overloading";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03679A3C2A8A35D400E82BA2 /* Cpp_tutorials */ = {
+		035B395A2AADBBBC0095531F /* Operator Overloading */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03679A442A8A35D400E82BA2 /* Build configuration list for PBXNativeTarget "Cpp_tutorials" */;
+			buildConfigurationList = 035B39622AADBBBC0095531F /* Build configuration list for PBXNativeTarget "Operator Overloading" */;
 			buildPhases = (
-				03679A392A8A35D400E82BA2 /* Sources */,
-				03679A3A2A8A35D400E82BA2 /* Frameworks */,
-				03679A3B2A8A35D400E82BA2 /* CopyFiles */,
+				035B39572AADBBBC0095531F /* Sources */,
+				035B39582AADBBBC0095531F /* Frameworks */,
+				035B39592AADBBBC0095531F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cpp_tutorials;
-			productName = Cpp_tutorials;
-			productReference = 03679A3D2A8A35D400E82BA2 /* Cpp_tutorials */;
+			name = "Operator Overloading";
+			productName = "Operator Overloading";
+			productReference = 035B395B2AADBBBC0095531F /* Operator Overloading */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03679A352A8A35D400E82BA2 /* Project object */ = {
+		035B39532AADBBBC0095531F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					03679A3C2A8A35D400E82BA2 = {
+					035B395A2AADBBBC0095531F = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 03679A382A8A35D400E82BA2 /* Build configuration list for PBXProject "Cpp_tutorials" */;
+			buildConfigurationList = 035B39562AADBBBC0095531F /* Build configuration list for PBXProject "Operator Overloading" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -100,29 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 03679A342A8A35D400E82BA2;
-			productRefGroup = 03679A3E2A8A35D400E82BA2 /* Products */;
+			mainGroup = 035B39522AADBBBC0095531F;
+			productRefGroup = 035B395C2AADBBBC0095531F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03679A3C2A8A35D400E82BA2 /* Cpp_tutorials */,
+				035B395A2AADBBBC0095531F /* Operator Overloading */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03679A392A8A35D400E82BA2 /* Sources */ = {
+		035B39572AADBBBC0095531F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03710DA32AA77CD000B9674A /* Ex1_13.cpp in Sources */,
+				035B395F2AADBBBC0095531F /* main.cpp in Sources */,
+				035B39672AADBBCE0095531F /* Box.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		03679A422A8A35D400E82BA2 /* Debug */ = {
+		035B39602AADBBBC0095531F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		03679A432A8A35D400E82BA2 /* Release */ = {
+		035B39612AADBBBC0095531F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +241,7 @@
 			};
 			name = Release;
 		};
-		03679A452A8A35D400E82BA2 /* Debug */ = {
+		035B39632AADBBBC0095531F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -239,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		03679A462A8A35D400E82BA2 /* Release */ = {
+		035B39642AADBBBC0095531F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03679A382A8A35D400E82BA2 /* Build configuration list for PBXProject "Cpp_tutorials" */ = {
+		035B39562AADBBBC0095531F /* Build configuration list for PBXProject "Operator Overloading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03679A422A8A35D400E82BA2 /* Debug */,
-				03679A432A8A35D400E82BA2 /* Release */,
+				035B39602AADBBBC0095531F /* Debug */,
+				035B39612AADBBBC0095531F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03679A442A8A35D400E82BA2 /* Build configuration list for PBXNativeTarget "Cpp_tutorials" */ = {
+		035B39622AADBBBC0095531F /* Build configuration list for PBXNativeTarget "Operator Overloading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03679A452A8A35D400E82BA2 /* Debug */,
-				03679A462A8A35D400E82BA2 /* Release */,
+				035B39632AADBBBC0095531F /* Debug */,
+				035B39642AADBBBC0095531F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03679A352A8A35D400E82BA2 /* Project object */;
+	rootObject = 035B39532AADBBBC0095531F /* Project object */;
 }

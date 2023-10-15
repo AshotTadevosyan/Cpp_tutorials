@@ -23,4 +23,7 @@ int main()
     k.show();
     k.setvalue(i.getvalue() + j.getvalue());
     k.show();
+    
+    std::cout << "Result of comparing i and j is " << i.compare(j) << std::endl;
+    std::cout << "Result of comparing k and j is " << k.compare(j) << std::endl;
 }

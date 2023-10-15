@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03710DA32AA77CD000B9674A /* Ex1_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03710DA22AA77CD000B9674A /* Ex1_13.cpp */; };
+		031273792AB21DDD001B841D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 031273782AB21DDD001B841D /* main.cpp */; };
+		031273812AB21E17001B841D /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0312737F2AB21E17001B841D /* BubbleSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		03679A3B2A8A35D400E82BA2 /* CopyFiles */ = {
+		031273732AB21DDD001B841D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03679A3D2A8A35D400E82BA2 /* Cpp_tutorials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_tutorials; sourceTree = BUILT_PRODUCTS_DIR; };
-		03710D9F2AA75D6800B9674A /* Inheritance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Inheritance.hpp; path = Cpp_tutorials/Inheritance.hpp; sourceTree = "<group>"; };
-		03710DA12AA77C9D00B9674A /* Carton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Carton.h; sourceTree = "<group>"; };
-		03710DA22AA77CD000B9674A /* Ex1_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1_13.cpp; sourceTree = "<group>"; };
+		031273752AB21DDD001B841D /* Sorting Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sorting Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031273782AB21DDD001B841D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0312737F2AB21E17001B841D /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
+		031273802AB21E17001B841D /* BubbleSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BubbleSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03679A3A2A8A35D400E82BA2 /* Frameworks */ = {
+		031273722AB21DDD001B841D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,59 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03679A342A8A35D400E82BA2 = {
+		0312736C2AB21DDD001B841D = {
 			isa = PBXGroup;
 			children = (
-				03710DA22AA77CD000B9674A /* Ex1_13.cpp */,
-				03710DA12AA77C9D00B9674A /* Carton.h */,
-				03710D9F2AA75D6800B9674A /* Inheritance.hpp */,
-				03679A3E2A8A35D400E82BA2 /* Products */,
+				0312737F2AB21E17001B841D /* BubbleSort.cpp */,
+				031273802AB21E17001B841D /* BubbleSort.hpp */,
+				031273772AB21DDD001B841D /* Sorting Algorithms */,
+				031273762AB21DDD001B841D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03679A3E2A8A35D400E82BA2 /* Products */ = {
+		031273762AB21DDD001B841D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03679A3D2A8A35D400E82BA2 /* Cpp_tutorials */,
+				031273752AB21DDD001B841D /* Sorting Algorithms */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		031273772AB21DDD001B841D /* Sorting Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				031273782AB21DDD001B841D /* main.cpp */,
+			);
+			path = "Sorting Algorithms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03679A3C2A8A35D400E82BA2 /* Cpp_tutorials */ = {
+		031273742AB21DDD001B841D /* Sorting Algorithms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03679A442A8A35D400E82BA2 /* Build configuration list for PBXNativeTarget "Cpp_tutorials" */;
+			buildConfigurationList = 0312737C2AB21DDD001B841D /* Build configuration list for PBXNativeTarget "Sorting Algorithms" */;
 			buildPhases = (
-				03679A392A8A35D400E82BA2 /* Sources */,
-				03679A3A2A8A35D400E82BA2 /* Frameworks */,
-				03679A3B2A8A35D400E82BA2 /* CopyFiles */,
+				031273712AB21DDD001B841D /* Sources */,
+				031273722AB21DDD001B841D /* Frameworks */,
+				031273732AB21DDD001B841D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cpp_tutorials;
-			productName = Cpp_tutorials;
-			productReference = 03679A3D2A8A35D400E82BA2 /* Cpp_tutorials */;
+			name = "Sorting Algorithms";
+			productName = "Sorting Algorithms";
+			productReference = 031273752AB21DDD001B841D /* Sorting Algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03679A352A8A35D400E82BA2 /* Project object */ = {
+		0312736D2AB21DDD001B841D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					03679A3C2A8A35D400E82BA2 = {
+					031273742AB21DDD001B841D = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 03679A382A8A35D400E82BA2 /* Build configuration list for PBXProject "Cpp_tutorials" */;
+			buildConfigurationList = 031273702AB21DDD001B841D /* Build configuration list for PBXProject "Sorting Algorithms" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -100,29 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 03679A342A8A35D400E82BA2;
-			productRefGroup = 03679A3E2A8A35D400E82BA2 /* Products */;
+			mainGroup = 0312736C2AB21DDD001B841D;
+			productRefGroup = 031273762AB21DDD001B841D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03679A3C2A8A35D400E82BA2 /* Cpp_tutorials */,
+				031273742AB21DDD001B841D /* Sorting Algorithms */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03679A392A8A35D400E82BA2 /* Sources */ = {
+		031273712AB21DDD001B841D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03710DA32AA77CD000B9674A /* Ex1_13.cpp in Sources */,
+				031273792AB21DDD001B841D /* main.cpp in Sources */,
+				031273812AB21E17001B841D /* BubbleSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		03679A422A8A35D400E82BA2 /* Debug */ = {
+		0312737A2AB21DDD001B841D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		03679A432A8A35D400E82BA2 /* Release */ = {
+		0312737B2AB21DDD001B841D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +241,7 @@
 			};
 			name = Release;
 		};
-		03679A452A8A35D400E82BA2 /* Debug */ = {
+		0312737D2AB21DDD001B841D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -239,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		03679A462A8A35D400E82BA2 /* Release */ = {
+		0312737E2AB21DDD001B841D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03679A382A8A35D400E82BA2 /* Build configuration list for PBXProject "Cpp_tutorials" */ = {
+		031273702AB21DDD001B841D /* Build configuration list for PBXProject "Sorting Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03679A422A8A35D400E82BA2 /* Debug */,
-				03679A432A8A35D400E82BA2 /* Release */,
+				0312737A2AB21DDD001B841D /* Debug */,
+				0312737B2AB21DDD001B841D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03679A442A8A35D400E82BA2 /* Build configuration list for PBXNativeTarget "Cpp_tutorials" */ = {
+		0312737C2AB21DDD001B841D /* Build configuration list for PBXNativeTarget "Sorting Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03679A452A8A35D400E82BA2 /* Debug */,
-				03679A462A8A35D400E82BA2 /* Release */,
+				0312737D2AB21DDD001B841D /* Debug */,
+				0312737E2AB21DDD001B841D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03679A352A8A35D400E82BA2 /* Project object */;
+	rootObject = 0312736D2AB21DDD001B841D /* Project object */;
 }

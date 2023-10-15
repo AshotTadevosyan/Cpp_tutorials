@@ -15,3 +15,15 @@ void Integer::show() const
 {
     std::cout << "Value is " << n << std::endl;
 }
+
+int Integer::compare(const Integer& object) const
+{
+    if (n < object.n) {return -1;}
+    else if (n == object.n) {return 0;}
+    else {return 1;}
+}
+
+int Integer::add(Integer object&)
+{
+    
+}
